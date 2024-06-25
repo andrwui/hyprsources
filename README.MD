@@ -18,8 +18,9 @@
 ## Future plans
 
   - Templating system for source files, to activate and deactivate relevant files altogether.
+  - Config file to alter some aspects of the app.
 
 
 ## Collaborating
 
-Feel free to end a pull request to fix/add any features
+Feel free to send a pull request to fix/add any features :)
