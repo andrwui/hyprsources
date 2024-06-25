@@ -20,7 +20,7 @@ func main() {
 
 	sources.SaveToJson()
 
-	list := models.NewList("hyprsources - Manage hyprland source files. Press [h] for help").SetSources(sources)
+	list := models.NewList("hyprsources - Manage hyprland source files.\n[up/down] Move pointer - [j/k] Order - [SPACE] Select - [d] Delete - [r] Rename - [a] Create - [ESC] Exit - [ENTER] Save").SetSources(sources)
 
 	editedSources, ok := list.Display()
 

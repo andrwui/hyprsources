@@ -66,7 +66,7 @@ func (l *List) renderSourceFiles(redraw bool, promptHeadroom int) {
 		}
 
 		if linesUp > 0 {
-			fmt.Printf("\033[%dA", linesUp+1)
+			fmt.Printf("\033[%dA", linesUp+2)
 		}
 	}
 	fmt.Printf("%s", l.Prompt)
