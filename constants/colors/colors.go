@@ -16,4 +16,4 @@ var TEXT_CYAN = "36"
 var TEXT_WHITE = "37"
 var TEXT_DEFAULT = "39"
 
-var SPACING = "					"
+var CLEAR_SCREEN = "\033[H\033[2J"

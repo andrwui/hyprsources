@@ -12,18 +12,21 @@ var Left byte = 68
 var MoveDown byte = 106
 var MoveUp byte = 107
 
+var ToggleName byte = 108
 var Rename byte = 114
 var Create byte = 97
 var Delete byte = 100
-
+var Help byte = 104
 var Keys = map[byte]bool{
-	Up:       true,
-	Down:     true,
-	Right:    true,
-	Left:     true,
-	MoveDown: true,
-	MoveUp:   true,
-	Delete:   true,
-	Rename:   true,
-	Create:   true,
+	Up:         true,
+	Down:       true,
+	Right:      true,
+	Left:       true,
+	MoveDown:   true,
+	MoveUp:     true,
+	Delete:     true,
+	Rename:     true,
+	Create:     true,
+	ToggleName: true,
+	Help:       true,
 }

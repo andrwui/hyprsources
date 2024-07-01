@@ -18,17 +18,19 @@ yay -S hyprsources-git
   - `r` - Rename the source file entry (just to identify files, it has no real effect)
   - `d` - Delete entry
   - `a` - Add entry
+  - `l` - Toggle view for path name
+  - `h` - Help
 
 
 
 
 ## Known issues
- - The application will not display nor clean the screen correctly when the console is not fullscreened.
+  - They're all fixed! If you encounter an error or a bug in the program, feel free to make a PR or open an issue :)
 
 ## Future plans
 
   - Templating system for source files, to activate and deactivate relevant files altogether.
-  - Config file to alter some aspects of the app.
+  - Config file to tweak the app a little.
 
 
 ## Collaborating
