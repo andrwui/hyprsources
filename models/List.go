@@ -129,8 +129,8 @@ func (l *List) Display() (SourceFilePointerArray, bool) {
 	}()
 
 	boldUnderlineAccent := style.CreateStyle().AddStyles(colors.TEXT_UNDERLINE, colors.TEXT_RED, colors.TEXT_BOLD)
-	redNameString := fmt.Sprintf(boldUnderlineAccent.Use("name"))
-	redPathString := fmt.Sprintf(boldUnderlineAccent.Use("path"))
+	redNameString := fmt.Sprint(boldUnderlineAccent.Use("name"))
+	redPathString := fmt.Sprint(boldUnderlineAccent.Use("path"))
 
 	l.renderSourceFiles()
 
